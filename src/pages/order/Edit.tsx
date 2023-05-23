@@ -25,6 +25,7 @@ export default () => {
         return (params.value as App.Model.Product).displayName
       },
     },
+    { field: 'color', headerName: 'WARNA PRODUK', flex: 1, sortable: false },
     { field: 'quantity', headerName: 'QUANTITY', flex: 1, type: 'number', sortable: false, editable: true },
     {
       field: 'actions',

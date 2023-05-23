@@ -5,6 +5,7 @@ declare namespace App.Model {
     displayName: string;
     location: string;
     gender: string;
+    address: string;
     createdAt: string;
     updatedAt: string;
   }
@@ -15,6 +16,7 @@ declare namespace App.Model {
     displayName: string;
     category: string;
     price: number;
+    color: string;
     orders?: Order[];
     createdAt: string;
     updatedAt: string;

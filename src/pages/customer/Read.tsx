@@ -12,6 +12,7 @@ export default () => {
     displayName: '',
     location: '',
     gender: '',
+    address: '',
     createdAt: '',
     updatedAt: '',
   })
@@ -60,6 +61,11 @@ export default () => {
           </>
         }>
           <ListItemText primary="Jenis Kelamin" secondary="Jenis kelamin dari pelanggan" />
+        </ListItem>
+        <ListItem secondaryAction={
+          <Typography>{data.address}</Typography>
+        }>
+          <ListItemText primary="Address" secondary="Alamat pelanggan" />
         </ListItem>
         <ListItem secondaryAction={
           <Typography>{data.createdAt}</Typography>

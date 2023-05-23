@@ -67,6 +67,12 @@ export default () => {
             ]}
           >
           </SelectElement>
+          <TextFieldElement
+            label="Alamat"
+            variant="filled"
+            name="address"
+            required
+          />
 
           <Box display={'flex'} justifyContent={'end'} gap={1}>
             <NavLink to={'/dashboard/customer'}>

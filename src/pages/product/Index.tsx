@@ -21,6 +21,7 @@ export default () => {
     { field: 'displayName', headerName: 'NAMA PRODUK', flex: 1, sortable: false },
     { field: 'category', headerName: 'KATEGORI', flex: 1, sortable: false, },
     { field: 'price', headerName: 'HARGA', flex: 1, sortable: false, },
+    { field: 'color', headerName: 'WARNA', flex: 1, sortable: false, },
     {
       field: 'actions',
       headerName: 'AKSI',

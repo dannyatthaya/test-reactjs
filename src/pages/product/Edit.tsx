@@ -95,6 +95,12 @@ export default () => {
             type="number"
             required
           />
+          <TextFieldElement
+            label="Warna"
+            variant="filled"
+            name="color"
+            required
+          />
 
           <Box display={'flex'} justifyContent={'end'} gap={1}>
             <NavLink to={'/dashboard/product'}>
